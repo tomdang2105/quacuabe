@@ -69,6 +69,10 @@ body{
     top: -40%;
     animation: handsCat 1s 4s forwards ease-in;
 }
+.boxHandsInfo{
+    display: flex;
+    justify-content: center;
+}
 @keyframes handsCat{
     0%{
         top: -40%;
