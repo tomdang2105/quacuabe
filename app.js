@@ -39,7 +39,7 @@ function progressInterva(){
         },800);
         setTimeout(()=>{
             button.style.background = "rgb(244,118,121)"
-            button.style.width = "130px";
+            button.style.width = "170px";
             button.style.borderRadius = "20px"
         },1500)
         setTimeout(()=>{
