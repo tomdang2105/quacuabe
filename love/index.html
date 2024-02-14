@@ -264,7 +264,8 @@
         if (indexTextContent < textLetterP.length) {
             textLetterContent.textContent += textLetterP[indexTextContent];
             indexTextContent++;
-            setTimeout(indexTextContent, 100);
+            delayTime = textLetterP[indexTextContent] === '.' ? 250 : 100;
+            setTimeout(indexTextContent, delayTime);
         }
         else{
             clearInterval(timoutTextLetterContent)
