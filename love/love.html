@@ -300,10 +300,10 @@
             letters.style.transform = `rotate(${rotate}deg)`;
             setTimeout(()=>{
                 letters.style.top = "100%";
-            },1000)
+            },100)
             setTimeout(()=>{
                 letters.remove()
-            },11000)
+            },20000)
             document.querySelectorAll(".letters").forEach((item)=>{
                 item.addEventListener("click", function(){
                     clearInterval(timeout)
