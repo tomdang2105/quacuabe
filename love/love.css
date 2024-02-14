@@ -70,7 +70,7 @@ body{
     animation: handsCat 1s 4s forwards ease-in;
 }
 .boxHandsInfo{
-    display: none;
+    display: flex;
     justify-content: center;
     margin-top: 20px;
 }
